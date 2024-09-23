@@ -3,4 +3,36 @@ body {
     height: 100vh;
     background-color: black;
     flex-direction: column;
+    gap: 100px;
+}
+
+.linhasdecard {
+    display:flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 100px;
+}
+
+.container {
+    background-color: rgb(8, 141, 182);
+    display:flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 270px;
+    width: 400px;
+    text-align: center;
+}
+.textmateria {
+    color:white;
+    font: bold;
+    font-size: 32px;
+}
+
+.materia {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.pergunta {
+    font-size: 50px;
 }
