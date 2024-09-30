@@ -1,62 +1,101 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+INDEX: <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashcard</title>
-    
+    <title>Cards</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <main>
-        <section id="container">
-            <article class="cartao">
-                <div class="cartao__conteudo">
-                    <h3>Programação</h3>
-                    <div class="cartao__conteudo__pergunta">
-                        O que é JavaScript?
-                    </div>
-                    <div class="cartao__conteudo__resposta">
-                        O JavaScript é uma linguagem de programação
-                    </div>
+    <div class="linhas">
+        <div class="container">
+            <div class="materia">
+                <p class="namemateria">Geografia</p>
+            </div>
+            <div class="question">
+                <p class="pquestion">Qual é a capital da França?</p>
+            </div>
+            <div class="resposta">
+                <p class="presposta">A capital da França é Paris.</p>
+            </div>
+
+        </div>
+
+            <div class="container">
+                <div class="materia">
+                    <p class="namemateria">Programação</p>
                 </div>
-            </article>
-            <article class="cartao">
-                <div class="cartao__conteudo">
-                    <h3>Programação</h3>
-                    <div class="cartao__conteudo__pergunta">
-                        O que é CSS?
-                    </div>
-                    <div class="cartao__conteudo__resposta">
-                        O CSS é uma linguagem de estilização
-                    </div>
+                <div class="question">
+                    <p class="pquestion">O que são linguagens <br>
+                    de programação</p>
                 </div>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p>Projeto desenvolvido pela Alura, sem fins lucrativos</p>
-    </footer>
-    Style.css
+                <div class="resposta">
+                    <p class="presposta">Idiomas que usamos para  <br> dar instruções aos <br> computadores</p>
+                </div>
+            </div>
 
-body {
-    background-color: bisque;
-    font-family: Bai Jamjuree;
-}
+            <div class="container">
+                <div class="materia">
+                    <p class="namemateria">Geografia</p>
+                </div>
+                <div class="question">
+                    <p class="pquestion">Qual é o maior oceano da Terra?</p>
+                </div>
+                <div class="resposta">
+                    <p class="presposta">O maior oceano da Terra <br> é o Oceano Pacífico.</p>
+                </div>
+            </div>
+ 
+    </div>
 
-footer {
-    background-color: black;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 2rem;
-}
 
-footer p {
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 0.5rem;
-}
+    <div class="linhas">
+        <div class="container">
+            <div class="materia">
+                <p class="namemateria">História</p>
+            </div>
+            <div class="question">
+                <p class="pquestion">Quem foi o primeiro presidente  <br>
+                    dos Estados Unidos?</p>
+            </div>
+            <div class="resposta">
+                <p class="presposta"> O primeiro presidente <br> dos Estados Unidos <br> foi George Washington</p>
+            </div>
+
+        </div>
+
+            <div class="container">
+                <div class="materia">
+                    <p class="namemateria">Matemática</p>
+                </div>
+                <div class="question">
+                    <p class="pquestion">Qual é o resultado de 7 x 8?</p>
+                </div>
+                <div class="resposta">
+                    <p class="presposta"> O resultado desta <br>  conta é 7 x 8 = 56</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="materia">
+                    <p class="namemateria">Ciências </p>
+                </div>
+                <div class="question">
+                    <p class="pquestion">Qual é o animal terrestre <br> mais rápido do mundo?</p>
+                </div>
+                <div class="resposta">
+                    <p class="presposta">O animal terrestre <br> mais rápido do mundo <br> é o guepardo.</p>
+                </div>
+            </div>
+ 
+    </div>
+
+  
+
+    
+
 </body>
 </html>
+
 

@@ -1,38 +1,90 @@
 body {
-    display: flex;
-    height: 100vh;
     background-color: black;
+    display: flex;
     flex-direction: column;
     gap: 100px;
-}
-
-.linhasdecard {
-    display:flex;
-    flex-direction: row;
-    gap: 100px;
-    margin-left: 100px;
-}
-
-.container {
-    background-color: rgb(8, 141, 182);
-    display:flex;
     align-items: center;
-    border-radius: 10px;
-    height: 270px;
+    height: 100vh;
+
+}
+.container {
+    background-color: blue;
+    height: 220px;
     width: 400px;
-    text-align: center;
-}
-.textmateria {
-    color:white;
-    font: bold;
-    font-size: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 500ms ease-in-out;
 }
 
-.materia {
-    border: 2px solid white;
+.linhas {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.materia {  
     border-radius: 10px;
+    border: solid 2px white;
+    margin-left: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    backface-visibility: hidden;
 }
 
-.pergunta {
-    font-size: 50px;
+.namemateria {
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+
+.question {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+backface-visibility: hidden;
+width: 100%;
+height: 50%;
+}
+
+
+.pquestion {
+    font-size: 26px;
+    color: white;
+   
+}
+
+.container:hover {
+    transform: rotateY(180deg);
+    
+}
+.container:hover .resposta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.resposta {
+display: flex;
+transform: rotateY(180deg);
+margin-left: -10px;
+margin-top: -110px;
+}
+
+.presposta {
+    color: cyan;
+    font-size: 26px;
+}
+
+.resposta, 
+.question {
+    backface-visibility: hidden;
+
 }
