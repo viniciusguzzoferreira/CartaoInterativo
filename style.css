@@ -27,7 +27,7 @@ body {
 
 .materia {  
     border-radius: 10px;
-    border: solid 2px rgb(0, 0, 0);
+    border: solid 2px rgb(255, 255, 255);
     margin-left: 10px;
     width: 100px;
     display: flex;
@@ -39,7 +39,7 @@ body {
 .namemateria {
     padding: 5px;
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
     margin: 0;
     font-size: 18px;
 }
@@ -57,7 +57,7 @@ height: 50%;
 
 .pquestion {
     font-size: 26px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
    
 }
 
@@ -79,7 +79,7 @@ margin-top: -110px;
 }
 
 .presposta {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 26px;
 }
 
